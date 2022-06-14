@@ -1,0 +1,18 @@
+courses,waec,utme
+accountancy,eng math accnt any2(lit_in_eng-geo-bio/agric-chem-phy-his-comm-govt-comp-civic),eng math any2(geo-comm-govt-accnt-econs)
+architecture,eng math phy any2(econs/comm-bio-chem-his-geo-fur_math-td-civic-ben-comp-accnt),eng math any2(phy-chem-geo-td)
+biochemistry,nan,nan
+business administration,eng math accnt any2(econs-lit_in_eng-comm-geo-bio/agric-chem-phy-his-govt-civic),eng math any2(geo-comm-govt-accnt-econs)
+estate management,eng math econs phy/chem/bio/agric geo/govt/td/comp/civic/fm/td/accnt/agric/ben,eng math econs geo/govt/phy/chem/fn/agric
+civil engineering,eng math phy chem any1(bio/agric-econs/comm-fm-td-comp-be-ben),eng math chem phy
+chemical engineering,nan,nan
+computer engineering,eng math phy chem any1(bio/agric-econs/comm-fm-td-comp-be-ben),eng math chem phy
+computer science,eng math phy any2(comp-econs/comm-govt/his-fm-chem-bio/agric-be),eng math any2(phy econs chem comp)
+electrical engineering,eng math phy chem any1(bio/agric-econs/comm-fm-td-comp-be-ben),eng math chem phy
+law,nan,nan
+marketing,eng math accnt any2(econs-bus-lit_in_eng-geo-bio/agric-chem-phy-his-comm-govt-comp-civic-irs/crs),eng math any2(geo-comm-his/govt-accnt-econs)
+medicine and surgery,nan,nan
+mass communication,eng math econs/comm any2(his-lit_in_eng-fn-govt-bio-phy-chem-be-geo-accnt/comm),eng any_sc any_art any_soc_sc
+nursing,nan,nan
+pharmacy,nan,nan
+theatre arts,nan,nan

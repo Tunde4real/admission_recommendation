@@ -1,0 +1,18 @@
+courses,waec,utme
+accountancy,eng math econs any1 any1,eng math econs any_soc_sc
+architecture,eng math phy chem any1,eng math phy chem/geo/bio/econs
+biochemistry,eng math chem bio phy,eng phy/math bio chem
+business administration,eng math econs any2(accnt-bm-comm-govt-geo-stat),eng math econs any1
+estate management,nan,nan
+civil engineering,math eng chem phy any_science,eng math phy chem
+chemical engineering,math eng chem phy any_science,eng math phy chem
+computer engineering,math eng chem phy fur_math,eng math phy chem
+computer science,math eng phy any2(bio-chem-fur_math-td),eng math phy chem/econs/bio
+electrical engineering,math eng chem phy any_science,eng math phy chem
+law,eng lit_in_eng math any1 any1,eng any_art/any_soc_sc any_art/any_soc_sc any_art/any_soc_sc
+marketing,nan,nan
+medicine and surgery,eng math phy chem bio,eng phy chem bio
+mass communication,nan,nan
+nursing,eng math phy chem bio,eng phy chem bio
+pharmacy,eng math chem phy bio,eng bio phy chem
+theatre arts,eng any_art any_art any_art any_art,eng lit_in_eng any_art any_art

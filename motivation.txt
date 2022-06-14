@@ -1,0 +1,10 @@
+A project on admission recommendation that helps recommend courses and institutions
+to students seeking admission into tertiary institutions(universities, polytechnics 
+and colleges of education) in Nigeria. This works by referring qualified student, 
+probably unqualified for chosen course, admissions into another course in same 
+university or same/another course in other universities, among other benefits. 
+The idea is that students who do not meet the cut-off mark of schools due to large 
+applications, yet possess strong/considerable academic qualifications should be 
+referred to other other closely related courses in the same institution that they 
+qualify for (before the end of change of course/university by jamb) or same/other 
+closely related course in other universities that they qualify for and can apply to. 
