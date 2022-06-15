@@ -86,11 +86,11 @@ def get_institutions(course, waec_subs, jamb_subs):
     art = ['lit_in_eng', 'his', 'fn', 'igbo', 'hausa', 'yor', 'govt', 'irs', 'crs']
 
     arr = {}    # a dictionary in the form {'uni -- course:score', ...} to be returned
-    files = ['courses\\'+i for i in os.listdir('courses')]
+    files = ['courses/'+i for i in os.listdir('courses')]
 
     # for folder in courses folder
     for i in files:
-        csv_files = [i+'\\'+j for j in os.listdir(i)]
+        csv_files = [i+'/'+j for j in os.listdir(i)]
 
         # for file in the folder
         for file in csv_files:
@@ -300,16 +300,16 @@ def get_institutions(course, waec_subs, jamb_subs):
                     grades += [sub_grades[i]]
                 score = waec_score(grades)
                 if score > 50:
-                    arr[file.split('\\')[-1][:-4] + f' -- {course}'] = score
+                    arr[file.split('/')[-1][:-4] + f' -- {course}'] = score
             
             elif len(real_subs) == 4 and (len(real_jamb_subs) == 4 or real_jamb_subs == []):
-                if file.split('\\')[1]=='colleges':
+                if file.split('/')[1]=='colleges':
                     grades = []
                     for i in real_subs:
                         grades += [sub_grades[i]]
                     score = waec_score(grades)
                     if score > 50:
-                        arr[file.split('\\')[-1][:-4] + f' -- {course}'] = score
+                        arr[file.split('/')[-1][:-4] + f' -- {course}'] = score
     return arr
 
 
