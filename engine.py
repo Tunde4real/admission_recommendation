@@ -4,6 +4,7 @@
 # import system libraries
 import os
 import copy
+from glob import glob
 
 # 3rd party modules
 import pandas as pd
@@ -86,11 +87,15 @@ def get_institutions(course, waec_subs, jamb_subs):
     art = ['lit_in_eng', 'his', 'fn', 'igbo', 'hausa', 'yor', 'govt', 'irs', 'crs']
 
     arr = {}    # a dictionary in the form {'uni -- course:score', ...} to be returned
-    files = ['courses/'+i for i in os.listdir('courses')]
+    files = glob('courses\*')
+    print('\nfiles', files)
+    # files = ['courses/'+i for i in os.listdir('courses')]
 
     # for folder in courses folder
     for i in files:
-        csv_files = [i+'/'+j for j in os.listdir(i)]
+        csv_files = glob(f'{i}\*')          # does the same thing as the line below
+        print('\ncsv files', csv_files)
+        # csv_files = [i+'/'+j for j in os.listdir(i)]
 
         # for file in the folder
         for file in csv_files:
@@ -300,10 +305,14 @@ def get_institutions(course, waec_subs, jamb_subs):
                     grades += [sub_grades[i]]
                 score = waec_score(grades)
                 if score > 50:
-                    arr[file.split('/')[-1][:-4] + f' -- {course}'] = score
+                    file_split = file.split('\\')
+                    print('\n1 file split', file_split)
+                    arr[file_split[-1][:-4] + f' -- {course}'] = score
             
             elif len(real_subs) == 4 and (len(real_jamb_subs) == 4 or real_jamb_subs == []):
-                if file.split('/')[1]=='colleges':
+                file_split = file.split('\\')
+                print('\nFile split: ', file_split, '\n')
+                if file_split[1]=='colleges':
                     grades = []
                     for i in real_subs:
                         grades += [sub_grades[i]]
