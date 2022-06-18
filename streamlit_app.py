@@ -108,7 +108,8 @@ def main():
                         'adeyemi_ce' : 'Adeyemi College of Education, Ondo',
                         'emmanuel_a_ce' : 'Emmanuel Ayanlade College of Education',
                         'fce_abeokuta' : 'Federal College of Education, Abeokuta',
-                        'fce_oyo' : 'Federal College of Education, Oyo'
+                        'fce_oyo' : 'Federal College of Education, Oyo',
+                        'fce_akoka' : 'Federal College of Education, Akoka'
                         }
         unis = [universities[i] for i in universities]
         university = university.selectbox('Select your intended/chosen university', options=[''] + unis)
