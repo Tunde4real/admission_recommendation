@@ -26,7 +26,7 @@ def main():
         with open('motivation.txt') as file:
             #motivation = file.read()
             motivation = file.read()
-        st.markdown(f"<p style='text-align:center; font-family:\"Source Code Pro\", monospace;'>{motivation}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='font-family:\"Source Code Pro\", monospace;'>{motivation}</p>", unsafe_allow_html=True)
         # st.text(motivation)
 
         # add some space
